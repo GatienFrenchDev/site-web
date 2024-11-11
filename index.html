@@ -68,6 +68,30 @@
 
       </ul>
     </section>
+
+    <!-- doit contenir un lien vers clé GPG, le fingerprint et le copyright -->
+    <footer>
+     
+      <p>
+        <a href="gpg-key.txt" target="_blank" title="GPG Key">GPG Key</a>
+      </p>
+      <p>
+        Fingerprint:
+        <code>
+          0x A9 84 5E 2E 37 AE B3 54 6D 26  DC 2B C6 E8 E3 DF 0D 0E BD 2E
+          </code>
+      </p>
+      <p id="date">
+        &copy; %year% Gatien Gillot
+      </p>
+      
+    </footer>
+
+    <script>
+      // Update the year in the footer
+      document.getElementById('date').innerHTML = document.getElementById('date').innerHTML.replace('%year%', new Date().getFullYear());
+    </script>
+
   </body>
  
 </html>

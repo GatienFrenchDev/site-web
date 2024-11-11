@@ -54,3 +54,16 @@ a:hover {
 .icons a:hover {
     color: #1565c0;
 }
+
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+footer p {
+    padding: 0 60px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #666;
+}
