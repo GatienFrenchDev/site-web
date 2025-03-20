@@ -67,3 +67,8 @@ footer p {
     font-size: 0.8em;
     color: #666;
 }
+
+.b-footer{
+    display: flex;
+    justify-content: center;
+}
